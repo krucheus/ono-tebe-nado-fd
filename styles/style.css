@@ -1,1 +1,92 @@
+.header {
+display: grid;
+grid-template-columns: 1fr min-content 1fr;
+align-items: center;
+padding: 88px 83px 96px 52px;
+}
 
+.header__links-list{
+display: flex;
+gap: 32px;
+list-style: circle;
+}
+
+.header__links-list-item {
+font-size: 18px;
+text-transform: lowercase;
+}
+
+.header__links-list-item_no-bullit {
+list-style-type: none;
+}
+
+.header__logo {
+width: 136px;
+margin-left: 33px;
+}
+
+
+address {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-self: end;
+max-width: 206px;
+font-size: 18px;
+font-style: normal;
+line-height: 1.3;
+}
+
+.cover {
+background-image: url(../images/cover.jpg);
+background-repeat: no-repeat;
+background-size: 100% auto;
+}
+
+.cards {
+padding: 180px;
+}
+
+.about {
+padding: 120px;
+}
+
+.footer {
+padding: 180px;
+}
+
+span {
+display: block;
+}
+
+.cover {
+display: grid;
+align-items: flex-start;
+}
+
+h1 {
+font-weight: 700;
+font-size: 100px;
+color: #fff;
+text-transform: uppercase;
+}
+
+.align_text-center {
+text-align: center;
+}
+
+.align_text-right {
+text-align: right;
+}
+
+.bet-button {
+margin: 0;
+padding: 0;
+background: transparent;
+}
+
+.cover__description-text {
+word-spacing: 44.5px;
+text-transform: uppercase;
+color: #fff;
+}

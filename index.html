@@ -11,26 +11,42 @@
   </head>
   <body>
     <header class="header">
-      <nav>
-        <ul class="menu">
-          <li>Главная</li>
-          <li>Посмотреть лоты</li>
-          <li>Об аукционе</li>
-      </ul>
+      <nav class="header__menu">
+        <ul class="header__links-list">
+          <li class="header__links-list-item header__links-list-item_no-bullit">
+            <a class="header__link header__link_active">Главная</a>
+          </li>
+          <li class="header__links-list-item">
+            <a href="#0">Посмотреть лоты</a>
+          </li>
+          <li class="header__links-list-item">
+            <a href="#0">Об аукционе</a>
+          </li>
+        </ul>
       </nav>
-      <a href="images/logo-black.svg" alt="Логотип"></a>
-      <address></address>
-      <div class="cover">
-        <h1 class="title">Оно тебе надо</h1>
-        <div class="description">
-          <p>Аукцион вещей, в которые никто не верил</p>
-          <button>Сделать ставку</button>
-        </div>
-      </div>
+      <a class="header__logo">
+        <img class="header__logo-image" src="./images/logo-black.svg" alt="Логотип">
+      </a>
+      <address class="address header__address">
+        <p><a href="tel:+99995555555">+9 999 555 5555</a></p>
+        <p><a href="mailto:info@sobaka.ge">info@sobaka.ge</a></p>
+        <p>наб. Принсенграхт 263-265, Амстердам</p>
+      </address>
     </header>
-   <!-- <main>
-      <section class="cover"></section>
+    <main>
+      <section class="cover">
+        <h1>
+          <span class="align_text-left">Оно</span>
+          <span class="align_text-center">тебе</span>
+          <span class="align_text-right">надо</span>
+        </h1>
+        <div class="cover__description">
+          <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
+          <button class="bet-button">Сделать ставку</button>
+        </div>
+      </section>
       <section class="cards">
+        <h2></h2>
         <ul>
           <li>
             <h2> <a href="0#">Фильм режиссёра, который бросил школу</a></h2>
@@ -47,9 +63,15 @@
         </ul>
         <div><a href="#0">Посмотреть больше</a></div>
       </section>
-      <section class="about"></section>
-    </main> *//
-    <footer>
+      <section class="about">
+        <div></div>
+        <div>
+          <h2></h2>
+          <div></div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
       <nav>
         <ul class="menu">
           <li>Главная</li>
