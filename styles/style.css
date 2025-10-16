@@ -245,15 +245,40 @@ line-height: 24px;
 .footer {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
-padding: 180px;
+height: 180px;
+margin-top: 180px;
+justify-items: center;
+}
+
+.footer__menu-list {
+display: flex;
+flex-direction: column;
+list-style-type: none;
+align-items: center;
+font-size: 18px;
+text-transform: lowercase;
+text-underline-offset: 5px;
 }
 
 .footer__social-list {
 display: flex;
 gap: 48px;
+list-style-type: none;
+padding-left: 26px;
 }
 
 .footer__social-icon {
 width: 48px;
 }
 
+.footer__address {
+display: flex;
+flex-direction: column;
+justify-self: center;
+max-width: 265px;
+line-height: 24px;
+font-size: 18px;
+text-underline-offset: 5px;
+font-style: normal;
+
+}
